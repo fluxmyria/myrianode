@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-insert key here from env  confirm file
+sed -i 's/key/$key/g' test.txt
 myria-node --start 
