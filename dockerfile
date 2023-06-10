@@ -5,6 +5,6 @@ RUN apt update \
 &&  sudo wget https://downloads-builds.myria.com/node/install.sh -O - | sudo bash
 
 COPY fluxinsert.sh .
-COPY Myria-node-service /etc/sysconfig/
+COPY myria-node-service /etc/sysconfig/
 
 ENTRYPOINT ["./fluxinsert.sh"]
