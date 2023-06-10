@@ -1,4 +1,5 @@
 FROM ubuntu:20.04
+WORKDIR = /myria
 
 RUN apt update \
 && apt install \
