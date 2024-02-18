@@ -7,6 +7,5 @@ RUN apt update \
 
 COPY ./fluxinsert.sh /
 run chmod +x fluxinsert.sh
-COPY myria-node-service /etc/sysconfig/
 
 ENTRYPOINT ["/fluxinsert.sh"]
